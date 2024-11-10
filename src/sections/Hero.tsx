@@ -20,7 +20,6 @@ const Hero = () => {
         <Image 
           src="/img/home.png" 
           alt="Illustration of learning resources" 
-          layout="responsive" 
           width={500} 
           height={300} 
         />

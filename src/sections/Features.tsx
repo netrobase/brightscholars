@@ -31,7 +31,7 @@ const Features: React.FC = () => {
   ];
 
   return (
-    <section className='grid grid-cols-4 gap-8'>
+    <section className='grid md:grid-cols-4 grid-cols-1 gap-4'>
       {features.map((feature) => (
         <FeatureBox
           key={feature.key}
