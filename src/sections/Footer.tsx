@@ -8,7 +8,7 @@ const Footer = () => {
     <section className="contact py-24 bg-white px-8 md:px-16">
       <div >
         {/* Logo Section */}
-        <div >
+        <div  data-aos="zoom-in">
           <Image
             src="/img/logo.svg"
             alt="Logo"

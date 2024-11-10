@@ -10,7 +10,7 @@ interface BoxProps {
 
 const Box: React.FC<BoxProps> = ({ image, title, description }) => {
   return (
-    <div className=" p-8 items-center gap-6 border rounded-lg shadow-lg hover:shadow-2xl transition-all">
+    <div className=" p-8 items-center gap-6 border rounded-lg shadow-lg hover:shadow-2xl transition-all"  data-aos="zoom-in">
       <div className="flex items-center justify-center ">
      <div className="w-32 h-32 bg-gray-200 rounded-full">
        <Image 

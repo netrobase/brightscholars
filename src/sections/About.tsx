@@ -3,7 +3,7 @@ import Image from 'next/image';
 const AboutSection = () => {
   return (
     <section className="about bg-cover bg-center bg-[url('/img/aboutbg.png')] py-24 grid grid-cols-1 md:grid-cols-2 gap-8 px-8 md:px-16">
-      <div className=" relative">
+      <div className=" relative"  data-aos="fade-right">
         <Image
           src="/img/about.png"
           alt="About Image"
@@ -13,7 +13,7 @@ const AboutSection = () => {
           
         />
       </div>
-      <div className="a space-y-6">
+      <div className="a space-y-6"  data-aos="fade-left">
         <h2 className="text-3xl font-semibold text-main-color">About Us</h2>
         <p className="text-lg text-main-color">
           We offer a wide range of online courses to enhance your skills and

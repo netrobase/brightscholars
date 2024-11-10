@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Hero = () => {
   return (
     <section className=" bg-cover bg-center bg-[url('/img/background.png')] h-screen grid grid-cols-1 md:grid-cols-2 gap-6 px-16 pt-24">
-      <div className="flex flex-col justify-center items-start space-y-6 ">
+      <div className="flex flex-col justify-center items-start space-y-6 " data-aos="fade-right">
         <h1 className="md:text-6xl text-4xl font-bold text-main-color">Welcome to Dreams Academy</h1>
         <p className="text-text-color text-lg font-semibold">Your journey to learning begins here.</p>
         <p className="text-sm text-second-color">Explore courses, learn new skills, and grow professionally.</p>
@@ -16,7 +16,7 @@ const Hero = () => {
           </button>
           </Link>
       </div>
-      <div>
+      <div  data-aos="fade-left">
         <Image 
           src="/img/home.png" 
           alt="Illustration of learning resources" 
