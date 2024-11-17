@@ -1,4 +1,13 @@
+# Kralis Templates -Project D
 
+Kralis Templates is a collection of 26 school website templates designed for professional school websites. This repository is dedicated to Project D, also known as Dreams Academy.
+
+
+## Technologies Used
+
+* Nextjs
+* Typescript
+* Tailwindcss
 
 # USAGE
 
